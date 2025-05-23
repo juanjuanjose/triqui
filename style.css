@@ -1,5 +1,5 @@
 body {
-    background-image: url(Download\ wallpaper\ 1920x1080\ trees\,\ grass\,\ fog\ full\ hd\,\ hdtv\,\ fhd\,\ 1080p\ hd\ background.jpeg);
+    background-image: url("./triquipicture.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,44 +9,9 @@ body {
     background-color: black;
     padding-top: 5rem;
 }
-
-@keyframes cambioDeColor {
-    0% {
-        color: #006e12;
-    }
-    10% {
-        color: #00ff00;
-    }
-    20% {
-        color: #0000ff;
-    }
-    35% {
-        color: #ff00ff;
-    }
-    40% {
-        color: #e5ff00;
-    }
-    50% {
-        color: #00ff0d;
-    }
-    60% {
-        color: #0d00ff;
-    }
-    70% {
-        color: #00ffd5;
-    }
-    80% {
-        color: #ff00b3;
-    }
-    90% {
-        color: #00d9ff;
-    }
-    100% {
-        color: #13cb76;
-    }
-}
-
 h1 {
+    color: #ffffff;
+    text-shadow: 0px 0px 20px #000000;  
     font-size: 4rem;
     animation: cambioDeColor 6s infinite;
 }
